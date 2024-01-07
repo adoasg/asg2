@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.ORDERS_FRESH
+{{ source('NWT','ORDER_DETAIL_FRESH')}}

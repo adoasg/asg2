@@ -40,3 +40,7 @@ models:
     ORDER_FRESH:
       +materialized: table
       unique_key: ORDERID
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab045a6d84ad361737376b9852df30f83563d8d2

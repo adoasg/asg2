@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.CATEGORY
+{{ source('NWT','CATEGORY')}}

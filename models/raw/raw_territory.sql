@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.TERRITORY
+{{ source('NWT','TERRITORY') }}

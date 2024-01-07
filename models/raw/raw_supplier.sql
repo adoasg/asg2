@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.SUPPLIER
+{{ source('NWT','SUPPLIER')}}

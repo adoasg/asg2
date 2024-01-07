@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.CUSTOMERS
+{{ source('NWT','CUSTOMERS')}}
