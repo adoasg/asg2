@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.EMPLOYEE
+{{ source('NWT','EMPLOYEE')}}

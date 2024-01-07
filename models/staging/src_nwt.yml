@@ -15,6 +15,8 @@ sources:
       - name: SHIPPER
       - name: SUPPLIER
       - name: TERRITORY
+      - name: REGION
+      - name: EMPLOYEE_TERRITORY
       - name: ORDER_FRESH
         description: fresh orders to be updated to order_updated
       - name: ORDER_DETAIL_FRESH

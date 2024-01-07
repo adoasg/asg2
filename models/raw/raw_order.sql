@@ -2,4 +2,4 @@
 
 Select *
 From 
-ASG.NWT.ORDER_UPDATED
+{{ source('NWT','ORDER_UPDATED')}}
