@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: NWT
+    description: a clone of the Snowflake Database
+    database: ASG
+    schema: NWT
+    tables:
+      - name: CUSTOMERS
+      - name: ORDER_UPDATED
+      - name: PRODUCT
+      - name: CATEGORY
+      - name: EMPLOYEE
+      - name: ORDER_DETAILS
+      - name: SHIPPER
+      - name: SUPPLIER
+      - name: TERRITORY
+      - name: ORDER_FRESH
+        description: fresh orders to be updated to order_updated
+      - name: ORDER_DETAIL_FRESH
+        description: fresh orders details to be updated to order_detail_fresh
