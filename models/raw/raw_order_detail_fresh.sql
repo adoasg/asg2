@@ -2,4 +2,4 @@
 
 Select *
 From 
-{{ source('NWT','ORDER_DETAILS_FRESH')}}
+{{ source('NWT','ORDER_DETAIL_FRESH')}}
