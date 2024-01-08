@@ -13,11 +13,14 @@ sources:
       - name: EMPLOYEE
       - name: EMPLOYEE_TERRITORY
       - name: REGION
-      - name: ORDER_DETAILS
+      - name: ORDER_DETAIL
       - name: SHIPPER
       - name: SUPPLIER
       - name: TERRITORY
       - name: ORDER_FRESH
         description: fresh orders to be updated to order_updated
+        columns: 
+        - name: ORDER_ID
+          description: Primary key for order_fresh
       - name: ORDER_DETAIL_FRESH
         description: fresh orders details to be updated to order_detail_fresh
