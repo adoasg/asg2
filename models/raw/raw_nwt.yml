@@ -79,8 +79,4 @@ models:
       - name: productid
         tests:
           - not_null
-  - name: region
-    columns:
-      - name: regionid
-        tests:
-          - not_null
+
