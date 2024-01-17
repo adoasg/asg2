@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+CREATE SCHEMA TRYTRY;
+CREATE TABLE HELLO_WORLD
+(
+   FIRST_NAME VARCHAR
+  ,LAST_NAME VARCHAR
+);
+=======
 name: Updating_product-demo
 
 # Controls when the action will run. 
@@ -42,3 +50,4 @@ jobs:
           
           echo "Step 2: Running schemachange"
           schemachange -f $GITHUB_WORKSPACE/Updating_product -a $SNOWFLAKE_ACCOUNT -u $SNOWFLAKE_USER -r $SNOWFLAKE_ROLE -w $SNOWFLAKE_WAREHOUSE -d $SNOWFLAKE_DATABASE -s $SNOWFLAKE_SCHEMA -c $SNOWFLAKE_DATABASE.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
+>>>>>>> 880020bd79aa17cc6e20dbc3ecdff4a93d712ecd
