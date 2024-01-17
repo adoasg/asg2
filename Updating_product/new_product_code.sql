@@ -1,4 +1,4 @@
-name: snowflake-helloworld-demo
+name: Updating_product-demo
 
 # Controls when the action will run. 
 on:
