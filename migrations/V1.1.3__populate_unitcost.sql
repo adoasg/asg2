@@ -2,10 +2,10 @@ UPDATE ASG.NWT.PRODUCT
 SET UNITCOST = (
     SELECT PF."UnitCost"
     FROM ASG.NWT.PRODUCT_FRESH PF
-    WHERE "productID" = PF."product id"
+    WHERE "PRODUCT"."productID" = PF."Product ID"
 )
 WHERE EXISTS (
     SELECT 1
     FROM ASG.NWT.PRODUCT_FRESH PF
-    WHERE "productID" = PF."product id"
+    WHERE "PRODUCT"."productID" = PF."Product ID"
 );
