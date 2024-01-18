@@ -6,4 +6,4 @@ ADD COLUMN UnitCost DECIMAL(10, 2);
 UPDATE Product AS p
 SET p.UnitCost = pf.UnitCost
 FROM Product_Fresh AS pf
-WHERE p.ProductID = pf.Product ID;
+WHERE p.ProductID = pf.ProductID;
