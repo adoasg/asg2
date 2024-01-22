@@ -1,0 +1,4 @@
+UPDATE ASG.NWT.PRODUCT Product
+SET Product.UNITCOST = PF."UnitCost"
+FROM ASG.NWT.PRODUCT_FRESH PF
+WHERE Product."productID" = PF."Product ID";
