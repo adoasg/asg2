@@ -7,25 +7,34 @@ sources:
     schema: NWT
     tables:
       - name: CUSTOMERS
+        description: Holds records of individuals or entities who purchase food items from NWT. Each record details a customer's information, which is essential for order processing and customer relationship management.
       - name: ORDER_UPDATED
-      - name: PRODUCT
+        description: This table logs the sales order transactions that occur between customers and NWT. It acts as a record of sales activity, capturing when orders are made and the details necessary for fulfillment and sales tracking.
       - name: CATEGORY
+        description: Categorizes NWT products and includes descriptive information, such as the name and a full description of each category. It helps in organizing products and simplifies reporting and inventory segmentation.
       - name: EMPLOYEE
+        description: This table contains records of NWT's workforce, including each employee's unique ID and name. It serves as a directory and is crucial for managing employee-related data, such as sales performance and territory assignments.
       - name: EMPLOYEE_TERRITORY
+        description: Links employees to their respective sales territories. It's used for managing and analyzing sales territories and employee assignments.
       - name: REGION
+        description: Details the different geographical regions where NWT operates, such as Eastern, Western, Northern, and Southern regions, along with their respective region IDs. This is important for regional analysis and strategic planning.
       - name: ORDER_DETAIL
+        description: Contains the specific details for each order placed by customers, such as product quantities and prices. It supplements the ORDER table with granular data for inventory management and order analysis.
       - name: SHIPPER
+        description: Manages information related to entities or services that ship orders from NWT to customers. It's important for logistics, tracking shipments, and analyzing shipping performance.
       - name: SUPPLIER
+        description: Contains information on entities that supply NWT with the required items to maintain inventory. It's key for supply chain management and procurement processes.
       - name: TERRITORY
+        description: Describes the various sales territories assigned to employees, including region ID. This helps in delineating sales regions for effective market coverage and sales force allocation.
       - name: ORDER_FRESH
         description: fresh orders to be updated to order_updated
         columns: 
-        - name: ORDER_ID
+        - name: "orderID"
           description: Primary key for order_fresh
       - name: ORDER_DETAIL_FRESH
         description: fresh orders details to be updated to order_detail_fresh
         columns:
-          - name: ORDER_ID
+          - name: "orderID"
             description: Primary key for order_detail_fresh
           - name: PRODUCT_ID
             description: Foregin key for order_detail_fresh
