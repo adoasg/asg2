@@ -79,10 +79,3 @@ models:
       - name: productid
         tests:
           - not_null
-  - name: raw_order2
-    columns:
-      - name: "orderID"
-        tests:
-          - unique
-          - not_null
-
