@@ -26,6 +26,9 @@ sources:
         description: Contains information on entities that supply NWT with the required items to maintain inventory. It's key for supply chain management and procurement processes.
       - name: TERRITORY
         description: Describes the various sales territories assigned to employees, including region ID. This helps in delineating sales regions for effective market coverage and sales force allocation.
+
+      - name: PRODUCT
+        description: Lists the current products available for purchase at NWT, primarily food items. It includes essential details for inventory management, sales, and product cataloging.
       - name: ORDER_FRESH
         description: fresh orders to be updated to order_updated
         columns: 
