@@ -32,12 +32,12 @@ sources:
       - name: ORDER_FRESH
         description: fresh orders to be updated to order_updated
         columns: 
-        - name: "orderID"
+        - name: orderID
           description: Primary key for order_fresh
       - name: ORDER_DETAIL_FRESH
         description: fresh orders details to be updated to order_detail_fresh
         columns:
-          - name: "orderID"
+          - name: orderID
             description: Primary key for order_detail_fresh
           - name: PRODUCT_ID
             description: Foregin key for order_detail_fresh
