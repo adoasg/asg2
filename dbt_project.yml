@@ -38,7 +38,7 @@ models:
       +materialized: view 
     ORDER_FRESH:
       +materialized: table
-      unique_key: "orderID"
+      unique_key: ORDERID
     ORDER_DETAIL_FRESH:
       +materialized: table
 
